@@ -1,8 +1,35 @@
-h1 {
-  font-family: "Julius Sans One", sans-serif;
+:root {
+  --base-color: #fdf1e9;
+  --heading-font-family: "Julius Sans One", sans-serif;
+}
+.hero p {
+  font-family: var(--heading-font-family);
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.hero {
+  background: var(--base-color);
+  padding: 60px 60px;
   text-align: center;
 }
+.hero h1 {
+  font-family: var(--heading-font-family);
+  text-align: center;
+  font-size: 60px;
+}
 .description {
-  font-size: 25px;
-  opacity: 0.7;
+  margin-top: 25px;
+  font-size: 20px;
+  opacity: 0.8;
+  font-weight: 400px;
+}
+.btn-branding {
+  background: #edbb99;
+  margin: 60px auto 25px;
+  border-radius: 12px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
